@@ -17,7 +17,7 @@ const Index: React.FC = () => {
   const init = useRequest<{ data: BasicListApi.Data }>(
     `https://public-api-v2.aspirantzhang.com/api/admins?X-API-KEY=antd&page=${page}&per_page=${per_page}${sortQuery}`,
   );
-  // console.log('console::::::=========>', init.data);
+
   useEffect(() => {
     init.run();
   }, [page, per_page, sortQuery]);

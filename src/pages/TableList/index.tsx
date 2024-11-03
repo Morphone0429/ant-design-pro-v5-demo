@@ -32,7 +32,7 @@ const handleAdd = async (fields: API.RuleListItem) => {
 };
 /**
  * @en-US Update node
- * @zh-CN 更新节点111
+ * @zh-CN 更新节点2
  *
  * @param fields
  */
