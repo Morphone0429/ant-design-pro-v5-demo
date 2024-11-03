@@ -5,7 +5,7 @@ const Order: React.FC = () => {
   const message = useModel('demo');
 
   const { counter, increment, decrement } = useModel('counter', (ret) => {
-    console.log('console::::::=========>12', ret);
+    console.log({ message }, '<=======');
     return { counter: ret.counter, increment: ret.increment, decrement: 1 };
   });
 
