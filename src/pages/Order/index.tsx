@@ -24,17 +24,7 @@ const Order: React.FC = () => {
         >
           increment new fix second fix
           <span>111</span>
-          <span>222</span>
-          <span>222</span>
-          <div>333</div>
-          <div>333</div>
-          <div>333</div>
-          <div>444</div>
-          <div>444</div>
-          <div>444</div>
-          <div>444</div>
-          <div>444</div>
-          <div>444</div>
+          <span>111</span>
         </Button>
       </div>
     </div>
