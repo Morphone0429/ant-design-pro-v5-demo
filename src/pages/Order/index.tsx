@@ -22,9 +22,7 @@ const Order: React.FC = () => {
             increment();
           }}
         >
-          increment new fix second fix
-          <span>111</span>
-          <span>111</span>
+          111
         </Button>
       </div>
     </div>
